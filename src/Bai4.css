@@ -1,0 +1,103 @@
+.TitleHT {
+    text-align: center;
+    font-size: 30px;
+    justify-content: center;
+    font-weight: bold;
+    padding: 12px;
+    margin-bottom: 3%;
+    color: white;
+    background-color: #2e86de;
+  }
+  
+  .Bai4 {
+    margin-top: 50px;
+    font-size: 20px;
+    color: #000;
+    background-color:#e9f0f5;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 #000;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 50px;
+  }
+  
+  .ContentHT {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .ContentHT label {
+    width: 25%;
+    margin-left: 3%;
+
+  }
+  .ContentLop {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 3%;
+  }
+  .ContentHTHT {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  .ContentHTHT label {
+    width: 85%;
+    text-align: start;
+  }
+  
+  .InputHT {
+    width: 60%;
+    height: 40px;
+    font-size: 18px;
+    margin-left: 3%;
+  }
+  .InputLop {
+    width: 30%;
+    height: 30px;
+    font-size: 18px;
+    margin-right: 50px;
+    margin-left: 20px;
+    font-size: 18px;
+  }
+  p {
+    margin-left: 3%;
+  }
+  .CheckboxHT {
+    margin-left: 5%;
+    margin-right: 3%;
+  }
+  .SubmitHT {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px
+  }
+  
+  .SubmittedContentHT {
+    background-color: #3c6382;
+    color: white;
+    padding-top: 5px;
+  }
+  
+  .SubmittedContentHT h2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .SubmittedContentHT .content {
+    margin-left: 25px;
+    padding-bottom: 50px;
+  }
+  .GhiNhan {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}

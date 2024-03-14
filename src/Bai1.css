@@ -1,48 +1,64 @@
-.Title {
+.TitleKQ {
     text-align: center;
     font-size: 30px;
     justify-content: center;
     font-weight: bold;
-    border-radius: 10px;
     padding: 12px;
-    color: #000;
-    background-color: blue;
+    color: white;
+    background-color: #c44569;
 }
 .Bai1 {
     margin-top: 50px;
     font-size: 20px;
     color: #000;
-    background-color: #f0f0f0;
-    border-radius: 10px;
+    background-color: #f8a5c2;
     box-shadow: 0 0 10px 0 #000;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 30%;
+    margin-right: 30%;
     margin-bottom: 50px;
 }
 
-.Content {
+.ContentKQ {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     margin-bottom: 10px;
 }
 
-.Content label {
+
+.ContentKQ label {
     width: 30%;
     text-align: start;
 }
 
-.Input {
-    width: 60%;
+.InputKQ {
+    width: 40%;
+    height: 30px;
+    margin-left: 10%;
+    font-size: 18px;
+}
+.InputDTB {
+    width: 40%;
+    height: 30px;
+    margin-left: 10%;
+    background-color: bisque;
+    color: black;
+    font-size: 18px;
 }
 
-.Submit {
+.SubmitKQ {
+    display: flex;
+    align-items: center;
     justify-content: center;
     text-align: center;
+    font-size: 18px;
+    padding: 1%;
+    background-color: #8395a7;
 }
 
 .XemKetQua {
     display: flex;
     justify-content: center;
     text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
