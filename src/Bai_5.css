@@ -1,0 +1,137 @@
+.Title {
+    text-align: center;
+    font-size: 30px;
+    justify-content: center;
+    font-weight: bold;
+    padding: 12px;
+    color: #feca57;
+    background-color: #d63031;
+    margin-bottom: 50px;
+  }
+  .Bai5 {
+    margin-top: 50px;
+    font-size: 20px;
+    color: #000;
+    background-color:#ebe3d4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 #000;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 50px;
+  }
+  
+  .Content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .Content label {
+    width: 40%;
+    text-align: start;
+  }
+  .Content1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: red;
+    font-weight: bold;
+    text-align: start;
+  }
+  .Content2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    text-align: start;
+  }
+  /* .Content1 label {
+    margin-left: 10px;
+  } */
+
+  .Input {
+    width: 30%;
+    height: 30px;
+    font-size: 18px;
+  }
+  .Input1 {
+    width: 80%;
+    height: 30px;
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  .Input2 {
+    width: 14%;
+    height: 30px;
+    font-size: 18px;
+    margin-right: 50px;
+    margin-left: 20px;
+    
+  }
+  .Input3 {
+    width: 30%;
+    height: 30px;
+    font-size: 18px;
+    margin-right: 50px;
+    margin-left: 20px;
+    
+  }
+  .Input4 {
+    width: 30%;
+    height: 80px;
+    font-size: 18px;
+    margin-right: 50px;
+    margin-left: 20px;
+    
+  }
+  .Checkbox {
+    margin-left: 25px;
+    margin-right: 10px;
+  }
+  .RadioGroup {
+    margin-left: 25px;
+  }
+  #inside, #outside {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  #female, #male {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .Submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    background-color: #a0afb0;
+  }
+  
+  .SubmittedContent {
+    background-color: #ebe3d4;
+    color: black;
+    padding-top: 5px;
+  }
+  
+  h2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #feca57;
+    background-color: #d63031;
+  }
+  p {
+    margin-left: 25px;
+  }
+  .SubmittedContent .content {
+    margin-left: 25px;
+    padding-bottom: 25px;
+  }
+  .DatCho {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}

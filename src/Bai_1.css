@@ -1,0 +1,60 @@
+.TitleB1 {
+    text-align: center;
+    font-size: 30px;
+    justify-content: center;
+    font-weight: bold;
+    /* border-radius: 5px; */
+    padding: 12px;
+    color: #FFFFFF;
+    background-color:#FF0066;
+}
+.Bai_1 {
+    margin-top: 50px;
+    font-size: 20px;
+    color: #000;
+    background-color: #FF99FF;
+    box-shadow: 0 0 10px 0 #000;
+    /* border-radius: 10px; */
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 50px;
+}
+
+.ContentB1 {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items:center;
+    margin-bottom: 10px;
+}
+
+.ContentB1 label {
+    width: 30%;
+    text-align: start;
+}
+
+.InputB1 {
+    width: 40%;
+    height: 20px;
+    margin-top: 10px;
+    font-size: 15px;
+    margin-left: 40px;
+    margin-right: 15%;
+}
+
+.SubmitB1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    background-color: #a0afb0;
+}
+
+.XemKetQua {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

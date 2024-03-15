@@ -1,7 +1,7 @@
-import './Bai1.css';
+import './Bai_1.css';
 import React, { useState } from 'react';
 
-function Bai1() {
+function Bai_1() {
     const [diemHK1, setDiemHK1] = useState(0);
     const [diemHK2, setDiemHK2] = useState(0);
     const [diemTB, setDiemTB] = useState(0);
@@ -31,17 +31,17 @@ function Bai1() {
     };
 
     return (
-        <form className="Bai1" onSubmit={handleSubmit}>
-            <div className="Title">
-                <text>Kết quả học tập</text>
+        <form className="Bai_1" onSubmit={handleSubmit}>
+            <div className="TitleB1">
+                <text>KẾT QUẢ HỌC TẬP</text>
             </div>
             <div style={{ padding: '20px' }}>
-                <div className="Content">
+                <div className="ContentB1">
                     <label>Điểm HK1:</label>
                     <input
                         value={diemHK1}
                         onChange={(e) => setDiemHK1(e.target.value)}
-                        className="Input"
+                        className="InputB1"
                         type="number"
                         name="diemHK1"
                         min="0"
@@ -51,12 +51,12 @@ function Bai1() {
                         disabled={ketQua !== ''}
                     />
                 </div>
-                <div className="Content">
+                <div className="ContentB1">
                     <label>Điểm HK2:</label>
                     <input
                         value={diemHK2}
                         onChange={(e) => setDiemHK2(e.target.value)}
-                        className="Input"
+                        className="InputB1"
                         type="number"
                         name="diemHK2"
                         min="0"
@@ -66,33 +66,33 @@ function Bai1() {
                         disabled={ketQua !== ''}
                     />
                 </div>
-                <div className="Content">
+                <div className="ContentB1">
                     <label>Điểm TB:</label>
                     <input
                         value={diemTB.toFixed(2)}
-                        className="Input"
+                        className="InputB1"
                         type="text"
                         name="diemTB"
                         readOnly
                         disabled
                     />
                 </div>
-                <div className="Content">
+                <div className="ContentB1">
                     <label>Kết quả:</label>
                     <input
                         value={ketQua}
-                        className="Input"
+                        className="InputB1"
                         type="text"
                         name="ketQua"
                         readOnly
                         disabled
                     />
                 </div>
-                <div className="Content">
+                <div className="ContentB1">
                     <label>Xếp loại học lực:</label>
                     <input
                         value={xepLoai}
-                        className="Input"
+                        className="InputB1"
                         type="text"
                         name="xepLoai"
                         readOnly
@@ -102,7 +102,7 @@ function Bai1() {
             </div>
             <div className='XemKetQua'>
                 <input
-                    className="Submit"
+                    className="SubmitB1"
                     type="submit"
                     value="Xem Kết quả"
                     disabled={ketQua !== ''}
@@ -112,4 +112,4 @@ function Bai1() {
     );
 }
 
-export default Bai1;
+export default Bai_1;
